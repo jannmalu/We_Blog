@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "342106532553",
+    "firebase_url": "https://we-blog-ce37b.firebaseio.com",
+    "project_id": "we-blog-ce37b",
+    "storage_bucket": "we-blog-ce37b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342106532553:android:5bb5a1b7ba08987b44bb18",
+        "android_client_info": {
+          "package_name": "com.mbetemalu.weblog"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342106532553-73imghnjdv2sb4i8fr05447r78kpsnh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mbetemalu.weblog",
+            "certificate_hash": "dfb766bdd68b9f976e796cb821d127fc2fd77dcd"
+          }
+        },
+        {
+          "client_id": "342106532553-en2heh20afmcip9oqqthjd1j69h4r71p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb_1Mowkfbxwn7PkhrM6aV-UnH4jDKh10"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342106532553-en2heh20afmcip9oqqthjd1j69h4r71p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

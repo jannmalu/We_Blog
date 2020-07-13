@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        tools:context=".SinglePostActivity">
+
+        <ImageView
+            android:id="@+id/single_post_image"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/single_post_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/post_title"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/melancholy"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:id="@+id/single_post_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/colorBlack"
+            android:text="@string/post_description"
+            android:fontFamily="@font/melancholy"/>
+
+        <Button
+            android:id="@+id/single_delete_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/delete_post"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@font/melancholy"
+            android:background="@color/colorMaroon"/>
+    </LinearLayout>
+</ScrollView>
